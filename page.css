@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #007BFF;
+}
+
+header {
+    background: url(https://lh3.googleusercontent.com/GC_GF62hwIj__GNHvwfW_OiAgCMoLdd425Zl7v2p8DI32F44e9jlpaGtco4pjIlPQo1rCYklzAgR85nc4GAhQ33O_A=s1280-w1280-h800);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: #007BFF;  
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+nav ul li a:hover {
+    background: #0056b3;
+}
+
+.hero-section {
+    padding: 100px 20px;
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero-section p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.hero-section .btn {
+    padding: 10px 20px;
+    background: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.hero-section .btn:hover {
+    background:#333
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#features .feature-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature {
+    background-color: rgb(48, 186, 245);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature i {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact input, #contact textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#contact button {
+    padding: 10px 20px;
+    background: #010b15;
+    color:white;
+    border: none;
+    border-radius: 3px;
+    font-size: 1em;
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Base button styling */
+button[type="submit"] {
+    padding: 10px 20px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect */
+button[type="submit"]:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
+
+/* targets the features section */
+section#features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  /* targets each feature div element */
+  section#features .feature {
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  /* targets each feature div element on hover */
+  section#features .feature:hover {
+    background-color: #f2f2f2;
+    transform: scale(1.05);
+  }
+  
